@@ -67,7 +67,7 @@ const Photos = () => {
 
       </div>
         
-        <div className='flex py-5 justify-between gap-5'>
+        <div className='flex py-5 justify-between gap-5 flex-wrap'>
           {photoData.map((data)=>(
            <UNPhoto key={data.id} title={data.title} imageUrl={data.url}/>
           ))}
