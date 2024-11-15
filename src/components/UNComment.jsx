@@ -7,7 +7,7 @@ const UNComment = ({ avatarUrl, email, commentText , onEdit ,onDelete}) => {
   return (
     <div className=" bg-white rounded-lg shadow-md w-80 p-4 my-3">
 
-     <div className='bg-gray-100 flex p-2 justify-between'>
+     <div className='bg-gray-100 flex p-2 justify-between rounded-md'>
          {/* Avatar */}
       <img
         src={avatarUrl}
