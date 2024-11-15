@@ -43,11 +43,7 @@ const Home = () => {
                 <FaRegImage className="mr-3" /> Photos
               </div>
             </Link>
-            <Link to="/albums">
-              <div className="flex items-center text-white hover:bg-blue-700 py-3 px-4 rounded-l-full cursor-pointer transition-all duration-300 ease-in-out">
-                <FaPhotoVideo className="mr-3" /> Albums
-              </div>
-            </Link>
+            
             <Link to="/todos">
               <div className="flex items-center text-white hover:bg-blue-700 py-3 px-4 rounded-l-full cursor-pointer transition-all duration-300 ease-in-out">
                 <FaCheckSquare className="mr-3" /> Todos
@@ -75,7 +71,6 @@ const Home = () => {
             <Route path="/posts" element={<Posts />} />
             <Route path="/comments" element={<Comments />} />
             <Route path="/photos" element={<Photos />} />
-            <Route path="/albums" element={<Albums />} />
             <Route path="/todos" element={<Todos />} />
             <Route path="/login" element={<LoginPage />} />
             <Route path="/signupPage" element={<Signup />} />
